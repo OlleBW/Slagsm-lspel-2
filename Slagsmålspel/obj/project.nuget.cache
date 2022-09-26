@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GC3XuKdG73nLYJ+qY/Ye1rja8fDURuSPQoiycvHpu4+yKzO9GsaKyIek0Mng9MbCAjF4ycRorrp8mlsmQH53RA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olle.brinkwennberg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
