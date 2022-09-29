@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj": {}
+    "C:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj": {}
   },
   "projects": {
-    "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj": {
+    "C:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj",
+        "projectUniqueName": "C:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj",
         "projectName": "Slagsmålspel",
-        "projectPath": "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj",
+        "projectPath": "C:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\Slagsmålspel.csproj",
         "packagesPath": "C:\\Users\\olle.brinkwennberg\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\obj\\",
+        "outputPath": "C:\\Users\\olle.brinkwennberg\\Desktop\\Prog2\\Slagsmålspel\\Slagsmålspel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
