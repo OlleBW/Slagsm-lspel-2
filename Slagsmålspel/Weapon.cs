@@ -2,9 +2,9 @@ using System;
 
 public class Weapon
 {
-    public int maxDamage = 10;
-    public int minDamage = 0;
-    public int weaponWeight;
+    private int maxDamage = 10;
+    private int minDamage = 0;
+    private int weaponWeight;
     public string name;
     private Random generator = new();
 
