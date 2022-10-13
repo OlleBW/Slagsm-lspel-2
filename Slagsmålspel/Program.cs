@@ -37,7 +37,7 @@ while (p1.hp > 0 || p2.hp > 0)
     string choiseW = Console.ReadLine();
     choiseW = choiseW.ToLower();
 
-    if (choiseW == "1" || choiseW == "one" || choiseW == "normal" || choiseW == "normal sword")
+    if (choiseW == "1" || choiseW == "one")
     {
         p1.Count();
         Console.Clear();
@@ -48,7 +48,7 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p1.countAtk >= 3 && choiseW == "2")
+    if (p1.countAtk >= 3 && choiseW == "2" || choiseW == "two")
     {
         Console.Clear();
         printStats();
@@ -58,7 +58,7 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p1.countAtk! >= 3 && choiseW == "2")
+    if (p1.countAtk! >= 3 && choiseW == "2" || choiseW == "two")
     {
         Console.WriteLine("You wasted your turn by trying to use the Excalibur without 3 attacks");
         Console.WriteLine("Press ENTER to continue.");
@@ -73,7 +73,7 @@ while (p1.hp > 0 || p2.hp > 0)
     string choiseW2 = Console.ReadLine();
     choiseW2 = choiseW2.ToLower();
 
-    if (choiseW2 == "1" || choiseW2 == "one" || choiseW2 == "normal" || choiseW2 == "normal sword")
+    if (choiseW2 == "1" || choiseW2 == "one")
     {
         p2.Count();
         Console.Clear();
@@ -84,7 +84,7 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p2.countAtk >= 3 && choiseW2 == "2" || choiseW2 == "two" || choiseW2 == "very op" || choiseW2 == "very op sword" || choiseW2 == "op" || choiseW2 == "op sword")
+    if (p2.countAtk >= 3 && choiseW2 == "2")
     {
         Console.Clear();
         printStats();
@@ -94,7 +94,7 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p2.countAtk! >= 3 && choiseW == "2" || choiseW == "two" || choiseW == "very op" || choiseW == "very op sword" || choiseW == "op" || choiseW == "op sword")
+    if (p2.countAtk! >= 3 && choiseW == "2")
     {
         Console.WriteLine("You wasted your turn by trying to use the Excalibur without 3 attacks");
         Console.WriteLine("Press ENTER to continue.");
