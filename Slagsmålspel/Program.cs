@@ -48,22 +48,27 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p1.countAtk >= 3 && choiseW == "2" || choiseW == "two")
+    if (choiseW == "2" || choiseW == "two")
     {
-        Console.Clear();
-        printStats();
-        int dmg = Excalibur.Attack();
-        p2.hp = p2.hp - dmg;
-        Console.WriteLine($"{p1.name} used the powerful Excalibur and did {dmg} damage!");
-        Console.WriteLine("Press ENTER to continue.");
-        Console.ReadLine();
+        if (p1.countAtk >= 3)
+        {
+            Console.Clear();
+            printStats();
+            int dmg = Excalibur.Attack();
+            p2.hp = p2.hp - dmg;
+            Console.WriteLine($"{p1.name} used the powerful Excalibur and did {dmg} damage!");
+            Console.WriteLine("Press ENTER to continue.");
+            Console.ReadLine();
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("You wasted your turn by attempting to use Excalibur without 3 attacks");
+            Console.WriteLine("Press ENTER to continue.");
+            Console.ReadLine();
+        }
     }
-    if (p1.countAtk! >= 3 && choiseW == "2" || choiseW == "two")
-    {
-        Console.WriteLine("You wasted your turn by trying to use the Excalibur without 3 attacks");
-        Console.WriteLine("Press ENTER to continue.");
-        Console.ReadLine();
-    }
+
 
     Console.Clear();
     printStats();
@@ -84,29 +89,41 @@ while (p1.hp > 0 || p2.hp > 0)
         Console.WriteLine("Press ENTER to continue.");
         Console.ReadLine();
     }
-    if (p2.countAtk >= 3 && choiseW2 == "2")
+    if (choiseW2 == "2" || choiseW2 == "two")
     {
-        Console.Clear();
-        printStats();
-        int dmg = Excalibur.Attack();
-        p1.hp = p1.hp - dmg;
-        Console.WriteLine($"{p2.name} used the powerful Excalibur and did {dmg} damage!");
-        Console.WriteLine("Press ENTER to continue.");
-        Console.ReadLine();
+        if (p2.countAtk >= 3)
+        {
+            Console.Clear();
+            printStats();
+            int dmg = Excalibur.Attack();
+            p1.hp = p1.hp - dmg;
+            Console.WriteLine($"{p2.name} used the powerful Excalibur and did {dmg} damage!");
+            Console.WriteLine("Press ENTER to continue.");
+            Console.ReadLine();
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("You wasted your turn by attempting to use Excalibur without 3 attacks");
+            Console.WriteLine("Press ENTER to continue.");
+            Console.ReadLine();
+        }
     }
-    if (p2.countAtk! >= 3 && choiseW == "2")
-    {
-        Console.WriteLine("You wasted your turn by trying to use the Excalibur without 3 attacks");
-        Console.WriteLine("Press ENTER to continue.");
-        Console.ReadLine();
-    }
+
+    if (p1.hp < 0)
+    { p1.hp = 0; }
+    if (p2.hp < 0)
+    { p2.hp = 0; }
+
 
     Console.Clear();
     printStats();
 }
 
 
+Console.WriteLine("Someone won the fight, I ran out of time :(");
 Console.ReadLine();
+
 
 void printStats()
 {
